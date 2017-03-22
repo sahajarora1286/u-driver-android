@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sahajarora.urdriver.TandCActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <include layout = "@layout/app_bar_normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Terms and Conditions"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I accept the terms and conditions"
+        android:textSize="18sp"
+        android:buttonTint="@color/colorPrimary"
+        android:layout_marginTop="350sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:text="Proceed"
+        android:padding="10sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"/>
+
+        </LinearLayout>
+</LinearLayout>

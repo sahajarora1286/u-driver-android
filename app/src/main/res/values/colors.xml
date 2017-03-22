@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5ea447</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="foreground_material_light">#000000</color>
+    <color name="black">#5ea447</color>
+    <color name="primary_text_default_material_light">#45c537</color>
+    <color name="primary_text_urdriver">#45c537</color>
+    <color name="secondary_text_default_urdriver">#45c537</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="primary_text_material_dark">#fcb041</color>
+    <color name="secondary_text_material_light">#ffffff</color>
+    <color name="secondary_text_material_dark">#fcb041</color>
+    <color name="windowBackground">#fcb041</color>
+    <color name="statusBarColor">#5ea447</color>
+    <color name="primary_text_material_light">#ffffff</color>
+</resources>

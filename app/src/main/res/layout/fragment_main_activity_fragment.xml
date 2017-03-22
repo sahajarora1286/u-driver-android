@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.sahajarora.urdriver.MainActivityFragment"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="190sp"
+            android:layout_height="40sp"
+            android:background="@drawable/buttonshape"
+            android:text="PARTY DRIVER"
+            android:textColor="#ffffff"
+            android:id="@+id/btnParty"
+            />
+        <Button
+            android:layout_marginTop="15sp"
+            android:layout_width="190sp"
+            android:layout_height="40sp"
+            android:background="@drawable/buttonshape"
+            android:text="AIRPORT DRIVER"
+            android:textColor="#ffffff"
+            android:id="@+id/btnAirport"
+            />
+        <Button
+            android:layout_marginTop="15sp"
+            android:layout_width="190sp"
+            android:layout_height="40sp"
+            android:background="@drawable/buttonshape"
+            android:text="VALET PARKING DRIVER"
+            android:textColor="#ffffff"
+            android:id="@+id/btnValet"
+            />
+        <Button
+            android:layout_marginTop="60sp"
+            android:layout_width="140sp"
+            android:layout_height="40sp"
+            android:background="@drawable/buttonshape"
+            android:text="CANCEL BOOKING"
+            android:textColor="#ffffff"
+            android:id="@+id/btnCancelBooking"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

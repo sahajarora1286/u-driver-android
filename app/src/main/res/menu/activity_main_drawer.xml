@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Home" />
+        <item android:id="@+id/nav_my_profile" android:icon="@android:drawable/ic_menu_camera"
+            android:title="My Profile" />
+        <item android:id="@+id/nav_booking_history" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Booking History" />
+        <item android:id="@+id/nav_rate_your_driver" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Rate Your Driver" />
+        <item android:id="@+id/nav_my_wallet" android:icon="@android:drawable/ic_menu_manage"
+            android:title="My Wallet" />
+        <item android:id="@+id/nav_about_us" android:icon="@android:drawable/ic_menu_manage"
+            android:title="About Us" />
+        <item android:id="@+id/nav_terms_conditions" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Terms and Conditions" />
+        <item android:id="@+id/nav_sign_out" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Sign Out" />
+    </group>
+
+
+
+</menu>

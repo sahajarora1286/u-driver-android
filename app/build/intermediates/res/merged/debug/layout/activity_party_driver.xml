@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/background"
+    tools:context="com.sahajarora.urdriver.DriverActivity">
+    <include layout="@layout/app_bar_normal"/>
+
+    <ScrollView
+        android:padding="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+            android:textColor="#fcb041"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_marginTop="15sp"
+            android:layout_width="120sp"
+            android:layout_height="40sp"
+            android:background="@drawable/buttonshape"
+            android:layout_gravity="center_horizontal"
+            android:text="SELECT DATE"
+            android:id="@+id/btnSelectDate"
+            android:onClick="showDatePickerDialog"
+            />
+
+
+            <TextView
+                android:layout_marginTop="35sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIME"
+                android:textColor="#fcb041"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_marginTop="15sp"
+                android:layout_width="120sp"
+                android:layout_height="40sp"
+                android:background="@drawable/buttonshape"
+                android:layout_gravity="center_horizontal"
+                android:text="SELECT TIME"
+                android:id="@+id/btnSelectTime"
+                android:onClick="showTimePickerDialog"
+                />
+
+            <TextView
+                android:layout_marginTop="35sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOCATION"
+                android:textColor="#fcb041"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_marginTop="15sp"
+                android:layout_width="190sp"
+                android:layout_height="40sp"
+                android:background="@drawable/buttonshape"
+                android:layout_gravity="center_horizontal"
+                android:text="SELECT PICKUP LOCATION"
+                android:id="@+id/btnPickupLocation"
+                android:onClick="showTimePickerDialog"
+                />
+
+            <Button
+                android:layout_marginTop="15sp"
+                android:layout_width="190sp"
+                android:layout_height="40sp"
+                android:background="@drawable/buttonshape"
+                android:layout_gravity="center_horizontal"
+                android:text="SELECT DESTINATION"
+                android:id="@+id/btnDropoffLocation"
+                android:onClick="showTimePickerDialog"
+                />
+
+            <Button
+                android:layout_marginTop="20sp"
+                android:layout_width="fill_parent"
+                android:layout_height="40sp"
+                android:background="#e6ac42"
+                android:layout_gravity="center_horizontal"
+                android:text="NEXT"
+                android:id="@+id/btnNext"
+                android:onClick="onNextClicked"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

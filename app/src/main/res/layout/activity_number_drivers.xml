@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sahajarora.urdriver.NumberDriversActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <include layout="@layout/app_bar_normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15sp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How many drivers do you need?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_border"
+            android:id="@+id/spinnerNumberDrivers"
+            android:padding="10sp"
+
+            >
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35sp"
+            android:text="How many hours do you need the driver for?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <Spinner
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15sp"
+            android:layout_width="100dp"
+            android:padding="10sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_border"
+            android:id="@+id/spinnerNumberHours">
+
+        </Spinner>
+
+        <Button
+
+            android:layout_marginTop="100sp"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:background="#e6ac42"
+            android:layout_gravity="center_horizontal"
+            android:text="NEXT"
+            android:textColor="#ffffff"
+            android:id="@+id/btnNext"
+            android:onClick="openConfirmActivity"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

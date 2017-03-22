@@ -1,0 +1,5 @@
+UrDriver Database details
+
+DB_NAME = urdriver_app
+DB_username = urdriver_sahaj
+DB_password = urdriver1286

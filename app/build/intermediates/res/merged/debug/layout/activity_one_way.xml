@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sahajarora.urdriver.OneWayActivity">
+    <include layout="@layout/app_bar_normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15sp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is it one way Airport drop?"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rgOneWay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/rbYesOneWay"
+                android:buttonTint="#42d435"
+                android:layout_marginRight="20sp"
+                android:textSize="20sp"
+                android:onClick="onYesOneWaySelected"
+                />
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbNoOneWay"
+                android:text="No"
+                android:buttonTint="#42d435"
+                android:textSize="20sp"
+                android:onClick="onNoOneWaySelected"
+                />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layoutNoOneWay"
+            android:layout_marginTop="20sp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Do you want the car to be dropped at the same pickup location?"
+            android:layout_gravity="center_horizontal"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rgPickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/rbYesPickup"
+                android:buttonTint="#42d435"
+                android:layout_marginRight="20sp"
+                android:textSize="20sp"
+                android:onClick="onYesPickupSelected"
+                />
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbNoPickup"
+                android:text="No"
+                android:buttonTint="#42d435"
+                android:textSize="20sp"
+                android:onClick="onNoPickupSelected"
+                />
+        </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45sp"
+            android:id="@+id/btnDropoff"
+            android:text="Choose Dropoff Location"
+            android:onClick="chooseDropoffLocation"
+            android:background="@drawable/buttonshape"
+            android:padding="10sp"/>
+
+        <Button
+
+            android:layout_marginTop="110sp"
+            android:layout_width="fill_parent"
+            android:layout_height="40sp"
+            android:background="#e6ac42"
+            android:layout_gravity="center_horizontal"
+            android:text="NEXT"
+            android:textColor="#ffffff"
+            android:id="@+id/btnNext"
+            android:onClick="openConfirmActivity"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

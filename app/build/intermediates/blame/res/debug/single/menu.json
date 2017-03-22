@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Freelancer\\UrDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_activity.xml",
+        "source": "E:\\Freelancer\\UrDriver\\app\\src\\main\\res\\menu\\menu_main_activity.xml"
+    },
+    {
+        "merged": "E:\\Freelancer\\UrDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu\\party_driver.xml",
+        "source": "E:\\Freelancer\\UrDriver\\app\\src\\main\\res\\menu\\party_driver.xml"
+    },
+    {
+        "merged": "E:\\Freelancer\\UrDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "E:\\Freelancer\\UrDriver\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\Freelancer\\UrDriver\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Freelancer\\UrDriver\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

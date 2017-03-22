@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sahajarora.urdriver.ConfirmActivity"
+    android:background="#ffffff"
+    >
+    <include layout="@layout/app_bar_normal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15sp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Summary"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="18sp"
+        android:layout_marginTop="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: "
+        android:textSize="18sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pickup Location: "
+        android:textSize="18sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dropoff Location: "
+        android:textSize="18sp"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Model: "
+        android:textSize="18sp"
+        android:layout_marginTop="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transmission: "
+        android:textSize="18sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="25sp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modify Booking"
+
+        android:id="@+id/btnModifyBooking"
+        android:padding="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonshape"
+        android:onClick="onModifyClicked"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/btnConfirm"
+            android:onClick="onConfirmClicked"
+            android:padding="10sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonshape"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
